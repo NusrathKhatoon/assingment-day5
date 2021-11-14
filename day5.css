@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #485461;
+}
+.bg{
+    padding: 50px;
+    background-color: #485461;
+}
+.logo{
+    width: 90px;
+    height: 100px;
+   /* background-color:red ;*/
+    color: white;
+    font-size: 50px;
+    font-family:'System';
+    text-align:center;
+}
+.search{
+    width: 70%;
+    height: 50px;
+    /*background-color: red;*/
+    margin-left: 15%;
+    font-size: 0px;
+}
+
+.search_field{
+    height: 50px;
+    width: 90%;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight:200px ;
+    text-indent:30px ;
+    vertical-align: top;
+    outline: none;
+    border: none;
+}
+.search_btn{
+    border: none;
+    height: 50px;
+    width: 10%;
+    background-color: white;
+}
+.search_icon{
+    width: 30px;
+}
+.songs{
+    width: 100%;
+    height: 350px;
+    /*background-color: red;*/
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+
+}
+.song:hover .song_img{
+ overflow: visible;
+}
+.song{
+    width: 20%;
+    height: 250px;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left:2% ;
+    margin-bottom: 20px;
+}
+.song_img{
+    width: 80%;
+    height: 100px;
+    /*background-color: brown;*/
+    margin-left: 10%;
+   overflow: hidden;
+}
+.song_player{
+    width: 8
+    0%;
+    height: auto;
+ /*  background-color: yellow;*/
+    margin-left: 10%;
+    margin-top: 20px;
+    padding-right:5%;
+    font-family : 'Segoe UI';
+    font-weight : 200px;
+    font-size:50px;   
+}
+.song_thumbnail{
+    width: 100%;
+    height: 120px;
+}
+
+.song:hover .song_thumbnail{
+    transform: scale(1.7);
+    transition: 0.4s;
+}
+.audio{
+    width:90% ;
+    margin-top: 10px;
+    padding-right: 45px;
+}
